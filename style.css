@@ -1,0 +1,25 @@
+body {
+  width: 100vh;
+  height: 100vh;
+}
+#btn {
+  width: 25%;
+  height: 5%;
+  margin-left: 36%;
+  margin-top: 40%;
+  font-size: 50px;
+  border: none;
+  border-radius: 50px;
+  background: #00ffff;
+  transition: 0.3s;
+  color: white;
+  font-weight: bold;
+}
+#btn:hover {
+  transform: translateX(13px) translateY(13px);
+}
+#btn:active {
+  transform: translateX(4px) translateY(4px);
+  background: white;
+  color: #00ffff;
+}
